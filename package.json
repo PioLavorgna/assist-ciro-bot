@@ -1,0 +1,26 @@
+{
+  "name": "assitbotpio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --ignore ./batch/* --ignore ./bot_utils/* --ignore ./filejson/* --ignore ./js/* --ignore ./node_modules/* --ignore ./sfdc_logic/* --ignore *.json --ignore ./src/* src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "axios": "^1.2.4",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "fs.promises": "^0.1.2",
+    "mz": "^2.7.0",
+    "node-cron": "^3.0.2",
+    "node-telegram-bot-api": "^0.61.0",
+    "telegraf": "^4.11.2"
+  }
+}
